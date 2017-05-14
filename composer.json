@@ -1,0 +1,13 @@
+{
+    "name": "songweifun/swphp",
+    "description": "php framwork with composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "songwei Fan",
+            "email": "songweifun@gmail.com"
+        }
+    ],
+    "require": {}
+}
