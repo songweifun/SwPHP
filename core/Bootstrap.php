@@ -20,14 +20,16 @@ class Bootstrap{
             $info=explode('/',$_GET['s']);
             //dd($info);
             $class='\web\controller\\'.ucfirst($info[0]);
+            //echo $class;
             $action=$info[1];
+            //echo "<br>";
         }else{
             //默认
-            $class='\web\controller\Index\\';
+            $class='\web\controller\Index';
             $action='show';
         }
         //实例化类并执行方法
-        (new $class())->$action();
+        echo (new $class())->$action();
 
     }
 }
